@@ -16,6 +16,7 @@ int main()
 		deq.push_back(a);
 	}
 	cout<<endl;
+	cout<<"Derbes Blya Krasavchik"<<endl;
 	a = deq.size();
 	while(cnt<a)
     {
