@@ -4,6 +4,7 @@ int main()
 {
 	long long int n,k,a[11111],res= 111111111,sum=0,j=0,cnt = 0;
 	cin>>n>>k;
+	bool daun = false;
 	bool swt = false;
 	for(int i = 1;i <=n;i++)
 	{
@@ -34,6 +35,16 @@ int main()
 		}
 		//cout<<i<<"-------------------"<<endl;
 	}
+	while(true){
+		if(!daun){
+			daun = true;
+		}
+		else{
+			cout<<"Derbeskros"<<endl;
+			break;
+		}
+	}
+	
 	cout<<res;
 	return 0;
 }
