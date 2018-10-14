@@ -46,6 +46,7 @@ int main()
 	}
 
 	cout<<mx<<" "<<tt;
+	cout<<"GULIMFOREVER"<<endl;
 	
 	return 0;
 }
