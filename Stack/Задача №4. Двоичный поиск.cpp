@@ -1,13 +1,4 @@
-#include<iostream>
-#include<sstream>
-#include<cmath>
-#include<stack>
-#include<deque>
-#include<map>
-#include<set>
-#include<vector>
-#include<algorithm>
-#include<iomanip>
+#include <bits/stdc++.h>
 using namespace std;
 
 long long int n,m,a[111111],l,r,v,u;
