@@ -19,7 +19,7 @@ int main()
 	cout<<"Derbes Blya Krasavchik"<<endl;
 	a = deq.size();
 	while(cnt<a)
-    {
+    	{
 	    seq.push_back(deq.back());
 	    deq.pop_back();
 	    cnt++;
