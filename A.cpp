@@ -24,12 +24,12 @@ int main()
 	    deq.pop_back();
 	    cnt++;
 	}
-	while(seq.size()!=0)
+	while(!seq.empty())
 	{
 		deq.push_front(seq.front());
 		seq.pop_front();
 	}
-	while(deq.size()!=0)
+	while(!deq.empty())
 	{
 		cout<<deq.front()<<" ";
 		deq.pop_front();
