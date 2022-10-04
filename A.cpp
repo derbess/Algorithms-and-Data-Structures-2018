@@ -10,7 +10,7 @@ int main()
 	int cnt = 0;
 	cin>>n;
 	bool ok = false;
-	for(int i=1;i<=n;i++)
+	for(int i=0;i<n;i++)
 	{
 		cin>>a;
 		deq.push_back(a);
