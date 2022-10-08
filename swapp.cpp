@@ -10,7 +10,6 @@ void sss()
 }
 int main()
 {
-	//int a,b;
 	cin>>a>>b;
 	sss();
 	cout<<a<<" "<<b;
