@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
-long long int n,a[1111111],cnt;
+
+long long int n,a[1111111], cnt;
 void quicksort(int l, int r) {
     int init_l = l;
     int init_r = r;
@@ -22,20 +23,20 @@ void quicksort(int l, int r) {
 int main()
 {
 	cin>>n;
-	for(int i =1;i<=n;i++)
+	for (int i = 1; i <= n; i++)
 	{
 		cin>>a[i];
 	}
-	quicksort(1,n);
+	quicksort(1, n);
 	int mn = a[1];
 	int mx = a[n];
-	for(int i = 1;i<=n;i++)
+	for (int i = 1;i <= n; i++)
 	{
-		if(a[i]>mn&&a[i]<mx)
+		if(a[i] > mn && a[i] < mx)
 		{
 			cnt++;
 		}
 	}
-	cout<<cnt;
+	cout << cnt;
 	return 0;
 }
