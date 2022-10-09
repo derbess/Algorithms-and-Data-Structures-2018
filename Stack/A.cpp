@@ -1,48 +1,49 @@
 #include<iostream>
 #include<stack>
 using namespace std;
+
 int main()
 {
 	int n,m,k;
 	string s;
 	stack <int> stk;
-	bool t=true;
+	bool t = true;
 	
-	while(t)
+	while (t)
 	{
-		cin>>s;
-		if(s=="push")
+		cin >> s;
+		if (s=="push")
 		{
-			cin>>n;
+			cin >> n;
 			stk.push(n);
-			cout<<"ok";
+			cout << "ok";
 		}
-		else if(s=="size")
+		else if (s == "size")
 		{
 			cout<<stk.size();
 		}
-		else if(s=="clear")
+		else if (s == "clear")
 		{
-			while(stk.size()!=0)
+			while(stk.size() != 0)
 			{
 				stk.pop();
 			}
-			cout<<"ok";
+			cout << "ok";
 		}
-		else if(s=="back")
+		else if (s == "back")
 		{
-			cout<<stk.top();
+			cout << stk.top();
 		}
-		else if(s=="pop")
+		else if (s == "pop")
 		{
-			cout<<stk.top();
+			cout << stk.top();
 			stk.pop();
 		}
-		else if(s=="exit")
+		else if (s == "exit")
 		{
-			t=false;
-			cout<<"bye";
+			t = false;
+			cout << "bye";
 		}
-		cout<<endl;
+		cout << endl;
 	}
 }
