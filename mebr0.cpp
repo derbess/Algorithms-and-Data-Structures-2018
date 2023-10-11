@@ -10,7 +10,7 @@ int main() {
   years.push_back(2023);
 
   for (int year: years) {
-    std::cout << "mebr0 participating Hacktoberfest " << year << "!" << std::endl;
+    std::cout << "mebr0 participating in Hacktoberfest " << year << "!" << std::endl;
   }
 
   return 0;
