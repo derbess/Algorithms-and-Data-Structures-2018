@@ -6,17 +6,16 @@ int main()
 	cin>>n>>k;
 	bool daun = false;
 	bool swt = false;
-	for(int i = 1;i <=n;i++)
+	for(int i = 1; i <= n; i++)
 	{
 		cin>>a[i];
 	}
-	for(int i =1;i<=n;i++)
+	for(int i = 1;i <= n; i++)
 	{
-		for(int j = i;j<=n;j++)
+		for(int j = i; j <= n; j++)
 		{
 			sum+=a[j];
 			cnt++;
-		//	cout<<sum<<"/ /"<<cnt<<endl;
 			if(sum>=k)
 			{
 				if(cnt<res)
@@ -28,12 +27,10 @@ int main()
 		if(swt)
 		{
 			res = cnt;
-		//	cout<<sum<<endl;
 			sum = 0;
 			cnt = 0;
 			swt = false;
 		}
-		//cout<<i<<"-------------------"<<endl;
 	}
 	while(true){
 		if(!daun){
